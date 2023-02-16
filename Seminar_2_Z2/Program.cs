@@ -8,20 +8,19 @@
 int value = 645;
 
 if ( value <= 999)
-{
 
+{
   int resalt = value % 10;
   Console.WriteLine(resalt);
 }
 
-
-
 if (value >= 999 )
+
 {
   int resalt = value/100 % 10;
-
   Console.WriteLine(resalt);
 }
+
 if (value < 100)
 
 {
