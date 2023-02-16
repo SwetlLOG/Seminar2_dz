@@ -5,9 +5,11 @@
 //String value = Console.ReadLine();
 //int resalt = Convert.ToInt32 (value);
 
-int value = 645;
+int value = 65894;
 
-if ( value <= 999)
+
+
+if (  value >=100 && value <= 999)
 
 {
   int resalt = value % 10;
