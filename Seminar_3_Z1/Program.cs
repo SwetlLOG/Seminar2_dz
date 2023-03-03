@@ -6,7 +6,9 @@
 //int main = Convert.ToInt32(Console.ReadLine());
 
 
-//int []arr_main = new int [5];
+//int[] arr_main;
+//Метод создания массива
+//int[] CreateArr 
 
 int[] arr = { 2, 3, 4, 3, 2 };
 
