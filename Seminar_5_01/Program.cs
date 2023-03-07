@@ -65,7 +65,7 @@ int GetValueFromConsole(string text)
   bool flag = false;
   while (!flag)
   {
-    Console.Wtite(text);
+    Console.WtiteLine(text);
     int.TryParse(Console.ReadLine(), out value);
   }
   return value;
@@ -93,7 +93,7 @@ int[] FindPositionElementInMatrix(int[,] matrix, int element)//Возвраща�
 int rows = GetValueFromConsole(" Введите количество строк в матрице: ");
 int columns = GetValueFromConsole(" Введите количество столбцов в матрице: ");
 int findItem = GetValueFromConsole(" Что ищем: ");
-int matrix = new int[rows, columns];
+int matrix = new int [rows, columns];
 Console.WriteLine();
 FillMatrix(matrix, 0, 10);
 
