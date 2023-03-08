@@ -7,7 +7,8 @@
 
 
 
-  
+  //Заполнение матрицы
+ // FillMatrix ( matrix, minValue, maxValue);
 
     double[,] matrix = new double[3, 4];
     
@@ -18,7 +19,7 @@
     {
       for (int j = 0; j < 4; j++)
       {
-        matrix[i, j] = r.Next(-10, 10);
+        matrix[i, j] = Math.Round(r.Next(-100, 100) * 0.1, 1);
        
         Console.Write("{0}  ", matrix[i, j]);
       }
