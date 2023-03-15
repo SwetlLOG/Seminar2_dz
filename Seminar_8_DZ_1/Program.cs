@@ -49,7 +49,6 @@ void ArraySort(int[,] array)
     }
 }
 
-// Функция вывода двумерного массива
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
